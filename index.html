@@ -1,0 +1,362 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda aplicacion movil</title>
+
+<!--gupo CSS-->
+<link rel="stylesheet" href="css/tema-app2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script type="text/javascript">
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/telefonos.jpg','imagenes/martyn2.jpg','imagenes/samsung-galaxy-s7-edge-2.jpg','imagenes/gama media 2.jpg','imagenes/gama baja2.jpg','imagenes/iusacel.jpg','imagenes/futurama3.jpg')">
+  
+<div data-role="page" id="principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+    <h1> telefonia celular </h1>
+  </div>
+   <div data-role="main" class="ui-content">
+    
+  </div>
+    <div>
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> ¿que es un telefono celular?  </h2> 
+             <p> definicion </p>
+          </a>
+        </li>     
+       <li class="ui-first-child ui-last-child">
+          <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> historia del telefono celular  </h2>  
+               <p> Se muestra brebe historia  </p>
+          </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> clasificacion por gama</h2>  
+               <p> Se muestra su tipo de gama </p>
+          </a>
+       </li>
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> compañias de servicio telefonico celular </h2>  
+               <p> Se muestran las compañias de telefonia en mexico </p>
+          </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2> telefonia del futuro </h2>  
+               <p> Se muestra la telefonia en desarrollo</p>
+          </a>
+       </li>
+       <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/futurama.jpg" alt="futurama" title="futurama" id="wows1_0"/></li>
+		<li><img src="data1/images/futurama2.jpg" alt="futurama2" title="futurama2" id="wows1_1"/></li>
+		<li><img src="data1/images/futurama3.jpg" alt="futurama3" title="futurama3" id="wows1_2"/></li>
+		<li><img src="data1/images/gama_media_2.jpg" alt="gama media 2" title="gama media 2" id="wows1_3"/></li>
+		<li><img src="data1/images/iphone.jpg" alt="iphone" title="iphone" id="wows1_4"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/samsunggalaxys7edge2.jpg" alt="jquery carousel" title="samsung-galaxy-s7-edge-2" id="wows1_5"/></a></li>
+		<li><img src="data1/images/telefono.jpg" alt="telefono" title="telefono" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="futurama"><span><img src="data1/tooltips/futurama.jpg" alt="futurama"/>1</span></a>
+		<a href="#" title="futurama2"><span><img src="data1/tooltips/futurama2.jpg" alt="futurama2"/>2</span></a>
+		<a href="#" title="futurama3"><span><img src="data1/tooltips/futurama3.jpg" alt="futurama3"/>3</span></a>
+		<a href="#" title="gama media 2"><span><img src="data1/tooltips/gama_media_2.jpg" alt="gama media 2"/>4</span></a>
+		<a href="#" title="iphone"><span><img src="data1/tooltips/iphone.jpg" alt="iphone"/>5</span></a>
+		<a href="#" title="samsung-galaxy-s7-edge-2"><span><img src="data1/tooltips/samsunggalaxys7edge2.jpg" alt="samsung-galaxy-s7-edge-2"/>6</span></a>
+		<a href="#" title="telefono"><span><img src="data1/tooltips/telefono.jpg" alt="telefono"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+      </ul>
+    </div>
+    <div  data-role="footer" align="center" data-theme="b" data-position="fixed">
+      <div>
+         <img src="imagenes/logo.png" width="46" height="46">
+      </div>
+      <div>
+         <h4> Aplicacion dos </h4>
+         <h4> Luis angel ramirez flores </h4>
+      </div>
+  </div>
+</div>
+    
+  
+    
+<div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>¿que es un telefono celular?  </h1>
+      </div>
+      <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> celular </h1>
+      <div>
+       <p> Esto es un celular: </p>
+       <br>
+      </div>
+      <div>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/telefonos.jpg',1)"><img src="imagenes/telefono.jpg" width="207" height="244" id="Image5"></a>
+<div data-role="main" class="ui-content">
+       </div>
+     </div>
+    </div>
+    </div>
+
+      <div data-role="content" align="center">
+        <div>
+           <h2> Es un aparato que recibe y emite comunicaciones a larga distancia y está conectado a una red telefónica.
+"teléfono inalámbrico; teléfono supletorio; el número de teléfonos de un país es indicativo del grado de desarrollo, y en los países más avanzados existe más de un aparato por cada dos personas"
+teléfono móvil (o teléfono celular) Aparato telefónico de pequeño tamaño, portátil, sin hilos ni cables externos, para poder hablar desde cualquier lugar, siempre que sea dentro del área de cobertura del servicio que lo facilita. </h2></div>
+  </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion dos, LARF </h4>
+  </div>
+</div>
+
+
+<div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Historia de la telefonia celular  </h1>
+      </div>
+      <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Martín Cooper</h1>
+      <div>
+       <p> Martín Cooper directivo de Motorola realizó la primera llamada desde un teléfono móvil </p>
+       <br>
+      </div>
+      <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/martyn2.jpg',1)"><img src="imagenes/martyn.jpg" width="282" height="178" id="Image6"></a> </div>
+    </div>
+    </div>
+
+      <div data-role="content" align="center">
+        <div>
+           <h2>El 3 de abril de 1973,18 Martín Cooper directivo de Motorola realizó la primera llamada desde un teléfono móvil del proyecto DynaTAC 8000X desde una calle de Nueva York.19 .
+En la década de 1990 nace la segunda generación, que utiliza sistemas como 
+Generación 2.5G
+Dado que la tecnología de 2G fue incrementada a 2.5G, en la cual se incluyen nuevos servicios como EMS y MMS:
+•	EMS es el servicio de mensajería mejorado, permite la inclusión de melodías e iconos dentro del mensaje basándose en los sms; un EMS equivale a 3 o 4 sms.
+•	MMS (Sistema de Mensajería Multimedia).
+Tercera generación
+3G nace de la necesidad de aumentar la capacidad de transmisión de datos para poder ofrecer servicios como la conexión a Internet desde el móvil, la videoconferencia, la televisión y la descarga de archivos
+La generación 4, o 4G, es la evolución tecnológica que ofrece al usuario de telefonía móvil, internet con más rapidez un mayor ancho de banda que permite, entre muchas otras cosas, la recepción de televisión en alta definición. Como ejemplo, podríamos citar al concept mobile Nokia Morph.20</h2></div>
+   </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion dos, LARF </h4>
+   </div>
+</div>
+          
+
+          
+          
+<div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>clasificacion por gama  </h1>
+      </div>
+       <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Foto de gama alta</h1>
+      <div>
+       <p> Esta es telefono gama alta:
+       Aquí se ubican los mejores, puedes hasta lavarte los dientes con ellos (es broma), se distinguen por sus exquisitas especificaciones pero no necesariamente representan una mejor experiencia al usarlos si no se elige con cuidado.
+
+Los mejores avances tecnológicos pueden aparecer en está gama para luego ser heredados con el tiempo a la gama media en menor medida.
+
+También pueden incluirse otros terminales no tan nuevos pero que siguen siendo una excelente opción en gama alta aunque no cumplan con el requisito del precio.
+        </p>
+       <br>
+      </div>
+      <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/samsung-galaxy-s7-edge-2.jpg',1)"><img src="imagenes/iphone.jpg" width="225" height="225" id="Image"></a> </div>
+      </div>
+      </div>
+      
+<div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Foto de gama media</h1>
+      <div>
+       <p> Esta es telefono gama media:
+       Aquí se ubican los SmartPhones algunos dispositivos de marcas asiáticas, dispositivos devaluados por el tiempo que tienen en el mercado (puede ser engañoso) y las propuestas conservadoras en especificaciones de marcas reconocidas que pueden hacer mucho pero no tanto.
+
+Suelen ser muy equilibrados en sus características
+Generalmente no superan los 500 dólares en precio (como mucho).
+Tienen algunas funciones de la gama alta del momento.
+Los materiales ya son de calidad aceptable.
+Pantallas que no superan las 4.5 pulgadas (en promedio).
+Cámaras de 3 a 5 Mpx
+Tienen soporte limitado pero existe comunidad de desabolladores para actualizar con una ROM </p>
+       <br>
+      </div>
+      <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/gama media 2.jpg',1)"><img src="imagenes/gama media.jpg" width="275" height="183" id="Image7"></a> </div>
+    </div>
+    </div>
+    
+     <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Foto de gama baja </h1>
+      <div>
+       <p> Esta es telefono gama baja:
+       En está categoría entran desde marcas chinas, imitaciones de gama media o alta hasta terminales obsoletos con muy pocas excepciones (Ej: el nokia n8 es una reliquia de colección pero su cámara es muy adelantada para cuando fue lanzado al mercado)
+
+Suelen ser pequeñosHTC-desire-960x623
+Tienen funciones básicas o las funciones que traen ya no están a la altura de un SmartPhone (ej:nokia)
+Precios muy economicos
+Características muy limitadas (cámara VGA, memoria interna, sin flash, se ponen muy lentos con el tiempo)
+No reciben soporte ni actualizaciones. </p>
+       <br>
+      </div>
+      <div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/gama baja2.jpg',1)"><img src="imagenes/gama baja.png" width="180" height="163" id="Image8"></a> </div>
+    </div>
+    </div>
+      
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion dos, LARF </h4>
+  </div>
+</div>
+
+          
+
+          
+          
+          
+<div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+        <h1> compañias de servicio telefonico celular</h1>
+      </div>
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> compañias telefonicas en mexico </h1>
+      <div>
+       <p>  compañias telefonicas en mexico</p>
+       <br>
+      </div>
+      <div>
+        <img src="imagenes/empresas.jpg" width="30%" height="100%">
+       </div>
+     </div>
+    </div>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<style>
+img
+{
+ opacity:0.4;
+}
+
+ img:hover
+{
+opacity:1.0;
+} 
+</style>
+<img src="imagenes/movistar.jpg" width="150" height"113" alt="klematis">
+<div>
+         <a href="http://www.movistar.com.mx/" target="_self">pagina movistar</a>   <h2> Movistar es la marca comercial de la multinacional española de telecomunicaciones Telefónica en España e Hispanoamérica, desde el 3 de mayo de 2010, para sus productos de telefonía fija, móvil, internet y televisión. Puede hacer referencia a varias filiales:
+ </h2>
+   <img src="imagenes/telcel.png" width="150" height"113" alt="klematis">
+<div>
+          <a href="http://www.telcel.com/" target="_self">pagina de telcel</a> <h2>Telcel es una marca propiedad de la empresa mexicana Radiomóvil DIPSA, S.A. de C.V.. Tiene presencia en todo México y se dedica a ofrecer servicios de telefonía móvil, telefonía fija, servicios de banda ancha, entre otros servicios. Es subsidiaria de la empresa mexicana América Móvil, (una filial de Grupo Carso).
+ </h2>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/iusacel.jpg',1)"><img src="imagenes/attt.png" width="122" height="68" id="Image2"></a> </div>
+<div><a href="https://www.att.com.mx/" target="_self">pagina de AT&T</a>
+           <h2> AT&T México (de razón social: AT&T Comunicaciones Digitales, S. de R.L. de C.V.) es una empresa mexicana de telecomunicaciones, subsidiaria de la empresa estadounidense AT&T, cuya sede se encuentra en la Ciudad de México. Entre sus principales servicios está la telefonía móvil, el internet móvil, servicios de banda ancha móvil, entre otros.
+ </h2>
+  <img src="imagenes/unefon.png" width="150" height"113" alt="klematis">
+<div>
+        <a href="https://www.unefon.com.mx/" target="_self"l>pagina de unefon</a>   <h2> Unefón es una compañía mexicana de telefonía móvil propiedad de AT&T, la cual se dedica a ofrecer únicamente el esquema de cobro de prepago. Fue fundada por Ricardo Salinas Pliego en 1998 y perteneció a Grupo Salinas desde su fundación hasta 2014, cuando la marca fue adquirida por AT&T.1 Alcanzó más de 2.5 millones de suscriptores en el año 2006.[cita requerida]
+
+La red de Unefón fue principalmente CDMA desde su fundación, usando estaciones base no analógicas y posteriormente a partir del 15 de agosto de 2010 continuó únicamente con las estaciones GSM. Actualmente Unefón utiliza la misma infraestructura móvil que AT&T, la cual incluye su más reciente despliegue de la red 4G LTE.
+ </h2>
+  
+</div>
+        
+<div data-role="footer" data-theme="b" data-position="fixed">
+           <h4> Aplicacion dos, LARF </h4>
+</div>
+             </div>
+             </div>
+             </div>
+            
+
+<div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>telefonia del futuro  </h1>
+      </div>
+      <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> celular del futuro </h1>
+      <div>
+       <p> Esto es un celular del futuro: </p>
+       <br>
+      </div>
+      <div>
+          <img src="imagenes/futurama.jpg" width="30%" height="100%">
+
+      
+     </div>
+    </div>
+    </div>
+   
+           <h2> El cómo será la tecnología en general, y los móviles en particular, es un tema muy recurrido en el que dejar volar nuestra imaginación resulta clave para abarcar todas las posibilidades que esconde el futuro. Cada uno tiene su ideal de hacia dónde irá encaminada la tecnología en los próximos tiempos, y la opinión de cualquier persona es tan válida como la de cualquier otro.
+
+A nosotros, particularmente, de vez en cuando nos gusta dejar corretear esa imaginación. En esta ocasión, en base de cómo ha avanzado el mercado de la telefonía móvil en los últimos cinco años, hemos tratado de imaginar cómo serán los teléfonos del futuro. Y cuando decimos “futuro” lo hacemos pensando en los años que tenemos a la vuelta de la esquina; 2018, 2019, 2020… ¿nos acompañáis en este viaje? </h2>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/futurama3.jpg',1)"><img src="imagenes/futurama2.jpg" width="270" height="355" id="Image13"></a>
+<div data-role="content" align="center">
+    <div></div>
+  </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion dos, LARF </h4>
+  </div>
+</div>       
+          
+          
+
+       
+                  
+                          
+</body>
+</html>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>14</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>visor1</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>tv,lines,cube</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/block/</ImageTemplate>
+            <ImageTemplateName>Block</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#fff</TemplateColor>
+            <TemplateFont>Tahoma</TemplateFont>
+            <TemplateName>block</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>E:/ /DAM/2parcial/aplicaciones/app2/imagenes/futurama.jpg</url>
+                <title>futurama</title>
+                <filesize>24570</filesize>
+            </Image>
+            <Image>
+                <url>E:/ /DAM/2parcial/aplicaciones/app2/imagenes/futurama2.jpg</url>
+                <title>futurama2</title>
+                <filesize>30238</filesize>
+            </Image>
+            <Image>
+                <url>E:/ /DAM/2parcial/aplicaciones/app2/imagenes/futurama3.jpg</url>
+                <title>futurama3</title>
+                <filesize>9234</filesize>
+            </Image>
+            <Image>
+                <url>E:/ /DAM/2parcial/aplicaciones/app2/imagenes/gama media 2.jpg</url>
+                <title>gama media 2</title>
+                <filesize>29376</filesize>
+            </Image>
+            <Image>
+                <url>E:/ /DAM/2parcial/aplicaciones/app2/imagenes/iphone.jpg</url>
+                <title>iphone</title>
+                <filesize>4068</filesize>
+            </Image>
+            <Image>
+                <url>E:/ /DAM/2parcial/aplicaciones/app2/imagenes/samsung-galaxy-s7-edge-2.jpg</url>
+                <title>samsung-galaxy-s7-edge-2</title>
+                <filesize>45249</filesize>
+            </Image>
+            <Image>
+                <url>E:/ /DAM/2parcial/aplicaciones/app2/imagenes/telefono.jpg</url>
+                <title>telefono</title>
+                <filesize>13711</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
